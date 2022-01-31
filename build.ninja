@@ -1,0 +1,4 @@
+rule openscad
+    command = openscad -o $out $in
+
+build cylinder_mount.stl: openscad cylinder_mount.scad
