@@ -1,6 +1,6 @@
 $fn = 200;
-Height = 50;
-Radius = 90;
+Height = 45;
+Radius = 45;
 Walls = 7;
 
 module tube(h, r_inner, thickness) {
